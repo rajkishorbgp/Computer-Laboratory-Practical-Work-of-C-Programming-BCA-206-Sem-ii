@@ -8,6 +8,6 @@ void main()
 	printf("Enter the ten number:- ");
 	for ( i = 0; i < 10; i++) {
 	scanf("%d",&num[i]);
-    sum+=num[i]; }
+        sum+=num[i]; }
 	printf("sum of all number= %d",sum);
 }
