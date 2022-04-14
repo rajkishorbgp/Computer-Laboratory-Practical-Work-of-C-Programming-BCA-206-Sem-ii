@@ -1,9 +1,7 @@
                                      Meerut Institute of Technology, Professional Courses, Meerut (1110) 
                                                 Department of Computer Application ( BCA)
                                                 
- Subject: Practical Work of C Programming                                                                                        Subject Code: BCA-206 
- Semester: BCA II Sem                                                                                                            Session: 2021-22 
- 
+
                                             ________________Lab Program List___________________
                                             
                                1. C program to read an array of 10 integers and find sum of all numbers. 
