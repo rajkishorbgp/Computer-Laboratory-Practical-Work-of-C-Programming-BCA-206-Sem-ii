@@ -10,7 +10,7 @@ void main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-           scanf("%d",&matrix_1[i][j]);
+                   scanf("%d",&matrix_1[i][j]);
 		}
 	}
 	printf("Enter the second matrix:- ");
@@ -18,18 +18,18 @@ void main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-        scanf("%d",&matrix_2[i][j]);
+                    scanf("%d",&matrix_2[i][j]);
 		}
 	}
 	printf("\n____product of matrix____\n");
-    for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j <3; j++)
 		{
-		    sum=0;
+		        sum=0;
 			for (int k = 0; k < 3; k++)
 			{
-				sum+=matrix_1[i][k]*matrix_2[k][j];
+			    sum+=matrix_1[i][k]*matrix_2[k][j];
 			}
 			product[i][j]=sum;
 			printf("%d\t",product[i][j]);
