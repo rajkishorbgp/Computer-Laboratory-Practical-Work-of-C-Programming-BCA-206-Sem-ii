@@ -6,8 +6,9 @@ then print its position & if not found then print appropriate message.
 void main()
 {
 	int num[8],n;
-	{printf("Enter the 8 integers number\n");
+	printf("Enter the 8 integers number\n");
 	for (int i = 0; i < 8; i++)
+	{
 		scanf("%d",&num[i]);
 	}
 	printf("Enter a number we want to find:- ");
