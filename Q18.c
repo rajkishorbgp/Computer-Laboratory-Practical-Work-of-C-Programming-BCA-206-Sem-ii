@@ -10,7 +10,7 @@ void main()
         char name[5][30],t[30];
         int i,j;
         printf("Enter the 5 names : ");
-         for (i =0; i<5; i++)
+        for (i =0; i<5; i++)
         {
                 gets(name[i]);
         }
