@@ -31,7 +31,7 @@ void main()
                   }
               }
         }
-        printf("\t______Sorted names______\n");
+        printf("\t______Sorted names______\n"); 
         for ( i = 0; i <5; i++)
         {
               puts(name[i]);
