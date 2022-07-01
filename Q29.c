@@ -2,7 +2,7 @@
         Write a C program to copy the contents of one file into another file.
 		                                                                       */
 #include <stdio.h>
-main()
+void main()
 {
     FILE *fp1=NULL, *fp2=NULL;
     char ch;
