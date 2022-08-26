@@ -22,19 +22,19 @@ void main()
     while ((ch = fgetc(fptr)) != EOF)
     {
         characters++;
-        if (ch==' ' || ch=='\n')
-        words++;
+        if (ch == ' ' || ch == '\n')
+            words++;
         if (ch == '\n')
             lines++;
     }
-    if (characters>0)
+    if (characters > 0)
     {
         words++;
         lines++;
     }
-    
-   printf("Total characters = %d\n", characters);
-   printf("Total words      = %d\n", words);
-   printf("Total lines      = %d\n", lines);
-   fclose(fptr);
+
+    printf("Total characters = %d\n", characters);
+    printf("Total words      = %d\n", words);
+    printf("Total lines      = %d\n", lines);
+    fclose(fptr);
 }
