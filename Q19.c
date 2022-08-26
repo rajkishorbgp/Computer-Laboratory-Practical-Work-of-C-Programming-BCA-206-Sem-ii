@@ -1,18 +1,18 @@
 /*                               Program:19
      Write a C program to accept a string & replace all occurrences of character 'a' with '*' symbol.
                                                                                           */
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 int main()
 {
-     char str[50],i;
+     char str[50], i;
      printf("Enter String: ");
      gets(str);
-     for ( i = 0; i <strlen(str); i++)
+     for (i = 0; str[i]; i++)
      {
-          if (str[i]=='a')
+          if (str[i] == 'a')
           {
-               str[i]='*';
+               str[i] = '*';
           }
      }
      printf("replace all occurrences of character 'a' with '*' symbol\n");
