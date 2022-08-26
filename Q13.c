@@ -9,8 +9,8 @@ void main()
 	printf("Enter the two number: ");
 	scanf("%f%f", &a, &b);
 	float (*ptr)(float, float);
-	ptr = add;
-	sum = (ptr)(a, b);
+	ptr = &add;
+	sum = (*ptr)(a, b);
 	printf("Sum of two no: %f", sum);
 }
 float add(float x, float y)
