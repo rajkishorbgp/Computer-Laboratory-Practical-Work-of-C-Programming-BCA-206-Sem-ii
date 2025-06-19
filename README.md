@@ -3,7 +3,7 @@
                                                 
 
          ________________Lab Program List___________________
-                                            
+ ```                                           
   1. C program to read an array of 10 integers and find sum of all numbers. 
   2. C program to read an array of 8 integer and find sum of all even and odd numbers. 
   3. Write a 'C' Program to accept 'n' numbers from user, store these numbers into an array.
@@ -73,4 +73,4 @@
  33. Write a c program to store record of student (stud_no, stud_name, stud_addr, stud_Percentage) 
      in a file using structure. 
  34. Write a c program for finding the largest integer among three integers using command line arguments. 
-
+```
